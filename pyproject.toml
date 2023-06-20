@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatgptpluginlambdabacked"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii Burtsev <ab.canada.world@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.3.0"
+ruff = "^0.0.272"
+aws-cdk-lib = "2.84.0"
+constructs = "^10.2.55, <11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
