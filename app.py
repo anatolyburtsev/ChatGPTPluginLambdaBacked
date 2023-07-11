@@ -3,8 +3,8 @@ import os
 
 import aws_cdk as cdk
 
-from chat_gpt_plugin_lambda_backed.chat_gpt_plugin_lambda_backed_stack import ChatGptPluginLambdaBackedStack
-
+from chat_gpt_plugin_lambda_backed.chat_gpt_plugin_lambda_backed_stack import \
+    ChatGptPluginLambdaBackedStack
 
 app = cdk.App()
 ChatGptPluginLambdaBackedStack(app, "ChatGptPluginLambdaBackedStack",
